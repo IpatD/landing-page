@@ -16,7 +16,7 @@ h2 {
     margin: 0;
 }
 body {
-
+  
 }
 
 .header {
@@ -58,14 +58,15 @@ ul {
     width: 400px;
     
 }
-.hl button {
+button {
     padding: 12px;
     width: 120px;
     border-radius: 12px;
     border: 0;
     background-color: #3882F6;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .hl p {
     font-size: 24px;
@@ -151,5 +152,33 @@ img {
     width: 800px;
     font-weight: bolder;
     margin: 0;
-
 }
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 200px;
+    height: 150px;
+    border-radius: 12px;
+    width: 1000px;
+}
+.ctal {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    gap: 0;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.ctal p {
+    margin-top: 0;
+}
+ 
