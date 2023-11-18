@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
+h1 {
+    font-size: 42px;
+    width: 400px;
+}
+h2 {
+    font-size: 64px;
+    margin: 0;
+}
+body {
+
+}
+
 .header {
     background-color: #1f2937;
     color: white;
@@ -10,8 +26,10 @@ html {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 36px;
-    font-weight: 900;    
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
 }
 ul {
     display: flex;
@@ -19,13 +37,17 @@ ul {
     list-style: none;
     gap: 12px;
     font-size: 24px;
+    width: 400px;
+    justify-content: end;
+    
+    
 }
 .hero {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #1f2937;
-    padding: 16px;
+    padding: 100px;
    
 }
 .hl {
@@ -33,7 +55,8 @@ ul {
     flex-direction: column;
     color: white;
     flex-wrap: wrap;
-    padding: 16px;
+    width: 400px;
+    
 }
 .hl button {
     padding: 12px;
@@ -44,6 +67,58 @@ ul {
     color: white;
     font-size: 16px;
 }
+.hl p {
+    font-size: 24px;
+}
 img {
     width: 400px
 }
+.content {
+    padding:80px;
+    display: flex;
+    flex-direction: column;
+}
+.content .header{
+    background-color: white;
+    justify-content: center;
+}
+.content h1 {
+    color: black;
+    font-size: 54px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content ul {
+    justify-content: center;
+    align-items: center;
+    width: auto;    
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    gap: 64px;
+    
+}
+.items img {
+    height: 150px;
+    width: 150px;
+    border: rgb(0, 0, 0);
+    border-radius: 12px;
+    background-color: rgb(247, 247, 247);
+    border-style: solid;
+}
+.items li {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.items p {
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+}
+
