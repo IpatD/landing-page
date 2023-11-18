@@ -104,8 +104,8 @@ img {
     
 }
 .items img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: rgb(0, 0, 0);
     border-radius: 12px;
     background-color: rgb(247, 247, 247);
@@ -114,11 +114,42 @@ img {
 .items li {
     display: flex;
     flex-direction: column;
-    gap: 12px;
 }
 .items p {
-    font-size: 18px;
-    width: 150px;
+    font-size: 24px;
+    width: 200px;
     text-align: center;
+    margin: 0;
 }
+.inspiration {
+    background-color: #e5e7eb;
+    padding: 200px;
+}
+.inspire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.il p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    width: 800px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
+.ir p {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 24px;
+    color: #1f2937;
+    width: 800px;
+    font-weight: bolder;
+    margin: 0;
 
+}
